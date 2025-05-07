@@ -1,0 +1,27 @@
+# Laravel-specific
+/vendor
+/node_modules
+/storage/*.key
+.env
+
+# Docker-specific
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose*.yml
+docker/
+
+# Git
+.git
+.gitignore
+
+# Mac & system files
+*.DS_Store
+*.log
+
+# Tests, IDE configs
+phpunit.xml
+.phpunit.result.cache
+.idea
+.vscode
+*.swp
